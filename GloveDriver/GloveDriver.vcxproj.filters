@@ -24,4 +24,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\input\controller_profile.json" />
+    <None Include="resources\input\glove_legacy_bindings.json" />
+    <None Include="driver.vrdrivermanifest" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,11 @@
+{
+	"alwaysActivate": true,
+	"name" : "GloveDriver",
+	"directory" : "",
+	"resourceOnly" : false,
+	"hmd_presence" :
+	[
+		"*.*"
+	]
+	"other_presence" : ["*.*"]
+}
