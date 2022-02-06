@@ -23,7 +23,7 @@ vr::EVRInitError GloveDevice::Activate(uint32_t unObjectId)
 	ovrObjID = unObjectId;
 	property_container = vr::VRProperties()->TrackedDeviceToPropertyContainer(ovrObjID);
 
-	vr::VRProperties()->SetStringProperty(property_container, vr::Prop_InputProfilePath_String, "glove/")
+	vr::VRProperties()->SetStringProperty(property_container, vr::Prop_InputProfilePath_String, "glove/");
 
 
 }
