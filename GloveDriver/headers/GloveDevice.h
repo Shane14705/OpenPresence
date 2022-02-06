@@ -19,6 +19,7 @@ class GloveDevice :
     void DebugRequest(const char* pchRequest, char* pchResponseBuffer, uint32_t unResponseBufferSize) override;
     uint32_t ovrObjID;
     vr::PropertyContainerHandle_t property_container;
+    vr::VRInputComponentHandle_t* skeleton_component = NULL;
 public:
     uint32_t get_ovr_obj_id() const
     {
