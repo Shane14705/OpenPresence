@@ -20,15 +20,18 @@ class GloveDevice :
     uint32_t ovrObjID;
     vr::PropertyContainerHandle_t property_container;
     vr::VRInputComponentHandle_t* skeleton_component = NULL;
+    Handedness hand_side;
 public:
     uint32_t get_ovr_obj_id() const
     {
 	    return ovrObjID;
     }
 
+
 public:
     GloveDevice();
 
+    GloveDevice(Handedness hand);
     virtual ~GloveDevice();
 
     

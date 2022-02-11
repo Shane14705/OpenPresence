@@ -1,8 +1,9 @@
 #include "GloveDevice.h"
 
 
-GloveDevice::GloveDevice()
+GloveDevice::GloveDevice(Handedness const hand) : hand_side(hand)
 {
+	//Make sure that we call activate on the GloveDevice object before we do anything else with it!
 }
 
 GloveDevice::~GloveDevice()
