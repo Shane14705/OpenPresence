@@ -19,15 +19,19 @@ class GloveDevice :
     void DebugRequest(const char* pchRequest, char* pchResponseBuffer, uint32_t unResponseBufferSize) override;
     uint32_t ovrObjID;
     vr::PropertyContainerHandle_t property_container;
+    vr::VRInputComponentHandle_t* skeleton_component = NULL;
+    Handedness hand_side;
 public:
     uint32_t get_ovr_obj_id() const
     {
 	    return ovrObjID;
     }
 
+
 public:
     GloveDevice();
 
+    GloveDevice(Handedness hand);
     virtual ~GloveDevice();
 
     

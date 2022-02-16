@@ -1,8 +1,9 @@
 #include "GloveDevice.h"
 
 
-GloveDevice::GloveDevice()
+GloveDevice::GloveDevice(Handedness const hand) : hand_side(hand)
 {
+	//Make sure that we call activate on the GloveDevice object before we do anything else with it!
 }
 
 GloveDevice::~GloveDevice()
@@ -23,8 +24,10 @@ vr::EVRInitError GloveDevice::Activate(uint32_t unObjectId)
 	ovrObjID = unObjectId;
 	property_container = vr::VRProperties()->TrackedDeviceToPropertyContainer(ovrObjID);
 
-	vr::VRProperties()->SetStringProperty(property_container, vr::Prop_InputProfilePath_String, "glove/");
+	vr::VRProperties()->SetStringProperty(property_container, vr::Prop_InputProfilePath_String, "{GloveDriver}/resources/input/controller_profile.json");
 
+	//https://github.com/spayne/right_hand_test and https://github.com/ValveSoftware/openvr/wiki/Creating-a-Skeletal-Input-Driver for extra info
+	vr::EVRInputError error = vr::VRDriverInput()->CreateSkeletonComponent(property_container, "/input/skeleton/right", "/skeleton/hand/right", "/pose_raw", vr::VRSkeletalTracking_Partial, NULL, 0, skeleton_component);
 
 }
 
