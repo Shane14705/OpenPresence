@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GloveDriver", "GloveDriver\GloveDriver.vcxproj", "{A0E806A2-FEE7-49CD-81D8-DBEFA707FC25}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OculusPoseTracker", "OculusPoseTracker\OculusPoseTracker.vcxproj", "{A9414A9C-7DAA-4B2B-B0C5-FBF524FD0AD1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GloveESP", "GloveESP\GloveESP.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenVRPoseTracker", "OpenVRPoseTracker\OpenVRPoseTracker.vcxproj", "{4788987A-3F5B-4DFD-9AA3-6333ACA3A702}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,22 +15,22 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A0E806A2-FEE7-49CD-81D8-DBEFA707FC25}.Debug|x64.ActiveCfg = Debug|x64
-		{A0E806A2-FEE7-49CD-81D8-DBEFA707FC25}.Debug|x64.Build.0 = Debug|x64
-		{A0E806A2-FEE7-49CD-81D8-DBEFA707FC25}.Debug|x86.ActiveCfg = Debug|Win32
-		{A0E806A2-FEE7-49CD-81D8-DBEFA707FC25}.Debug|x86.Build.0 = Debug|Win32
-		{A0E806A2-FEE7-49CD-81D8-DBEFA707FC25}.Release|x64.ActiveCfg = Release|x64
-		{A0E806A2-FEE7-49CD-81D8-DBEFA707FC25}.Release|x64.Build.0 = Release|x64
-		{A0E806A2-FEE7-49CD-81D8-DBEFA707FC25}.Release|x86.ActiveCfg = Release|Win32
-		{A0E806A2-FEE7-49CD-81D8-DBEFA707FC25}.Release|x86.Build.0 = Release|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x64.ActiveCfg = Debug|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x64.Build.0 = Debug|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x64.ActiveCfg = Release|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x64.Build.0 = Release|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{A9414A9C-7DAA-4B2B-B0C5-FBF524FD0AD1}.Debug|x64.ActiveCfg = Debug|x64
+		{A9414A9C-7DAA-4B2B-B0C5-FBF524FD0AD1}.Debug|x64.Build.0 = Debug|x64
+		{A9414A9C-7DAA-4B2B-B0C5-FBF524FD0AD1}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9414A9C-7DAA-4B2B-B0C5-FBF524FD0AD1}.Debug|x86.Build.0 = Debug|Win32
+		{A9414A9C-7DAA-4B2B-B0C5-FBF524FD0AD1}.Release|x64.ActiveCfg = Release|x64
+		{A9414A9C-7DAA-4B2B-B0C5-FBF524FD0AD1}.Release|x64.Build.0 = Release|x64
+		{A9414A9C-7DAA-4B2B-B0C5-FBF524FD0AD1}.Release|x86.ActiveCfg = Release|Win32
+		{A9414A9C-7DAA-4B2B-B0C5-FBF524FD0AD1}.Release|x86.Build.0 = Release|Win32
+		{4788987A-3F5B-4DFD-9AA3-6333ACA3A702}.Debug|x64.ActiveCfg = Debug|x64
+		{4788987A-3F5B-4DFD-9AA3-6333ACA3A702}.Debug|x64.Build.0 = Debug|x64
+		{4788987A-3F5B-4DFD-9AA3-6333ACA3A702}.Debug|x86.ActiveCfg = Debug|Win32
+		{4788987A-3F5B-4DFD-9AA3-6333ACA3A702}.Debug|x86.Build.0 = Debug|Win32
+		{4788987A-3F5B-4DFD-9AA3-6333ACA3A702}.Release|x64.ActiveCfg = Release|x64
+		{4788987A-3F5B-4DFD-9AA3-6333ACA3A702}.Release|x64.Build.0 = Release|x64
+		{4788987A-3F5B-4DFD-9AA3-6333ACA3A702}.Release|x86.ActiveCfg = Release|Win32
+		{4788987A-3F5B-4DFD-9AA3-6333ACA3A702}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
